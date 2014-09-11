@@ -1,0 +1,13 @@
+{
+  "name": "Recipe Demo App",
+  "description": "Search and read recipes",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/icon.png"
+  },
+  "developer": {
+    "name": "Rejah & Shiraz",
+    "url": "http://rejahrehim.github.io/slides/kickstart-ffos-dev.html"
+  },
+  "default_locale": "en"
+}
