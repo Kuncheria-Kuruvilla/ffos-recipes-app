@@ -9,5 +9,11 @@
     "name": "Rejah & Shiraz",
     "url": "http://rejahrehim.github.io/slides/kickstart-ffos-dev.html"
   },
-  "default_locale": "en"
+  "default_locale": "en",
+  "type": "privileged",
+  "permissions": {
+    "systemXHR": {
+      "description": "Allows loading remote content"
+    }
+  }
 }
