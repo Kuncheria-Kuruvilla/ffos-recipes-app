@@ -15,5 +15,6 @@
     "systemXHR": {
       "description": "Allows loading remote content"
     }
-  }
+  },
+  "fullscreen": "true"
 }
