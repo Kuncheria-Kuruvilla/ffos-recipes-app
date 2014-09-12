@@ -23,7 +23,7 @@ var recipeApp = {
                         result += "<div class='teamalign'><img class='team-thumb img-circle' src="+obj.recipes[prop].image_url+"> </div>";
                         result += "<h3>"+obj.recipes[prop].title+"</h3>";
                         result += "<div class='job-position'>#12334556</div>";
-                        result += "<a href='http://food2fork.com/api/get?key="+appKey+"&rId="+obj.recipes[prop].recipe_id+"' title='More Info' class='link-more-info'>More Info...</a>";
+                        result += "<a href='http://food2fork.com/api/get?key="+appKey+"&rId="+obj.recipes[prop].recipe_id+"' title='More Info' class='link-more-info' onclick='alert(\"hii\")'>More Info...</a>";
                         result += "</div>";
                     }
                 }
